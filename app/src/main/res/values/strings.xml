@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">ThreadHandlerWizard</string>
-
-    <string name="tab_start">Start</string>
-    <string name="tab_progress">Progress</string>
-    <string name="tab_result">Result</string>
-    <string name="status_working_format">Working… %1$d%%</string>
-</resources>
