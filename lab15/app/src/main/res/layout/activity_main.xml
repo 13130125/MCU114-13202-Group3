@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="廠牌："
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/edBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="請輸入廠牌 (如: Toyota)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年份："
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/edYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="請輸入年份 (如: 2018)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="價格："
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/edPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="請輸入價格" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnInsert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新增" />
+        <Button android:id="@+id/btnUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改" />
+        <Button android:id="@+id/btnDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="刪除" />
+        <Button android:id="@+id/btnQuery"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查詢" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
