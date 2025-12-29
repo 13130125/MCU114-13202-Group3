@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cointrack</string>
+
+        <string name="today_expense_label">今天花費 (今日明細)</string>
+        <string name="month_remaining_label">本月剩餘額度 (預算)</string>
+        <string name="recent_transactions_title">最近的記帳紀錄</string>
+        <string name="add_transaction_cd">新增記帳</string>
+
+</resources>

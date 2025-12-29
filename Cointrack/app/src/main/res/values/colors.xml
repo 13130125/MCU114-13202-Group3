@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 標準 Android 顏色，您可能已經有這些 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cointrack 專案所需的自定義顏色 -->
+    <!-- 支出/負值：紅 -->
+    <color name="red">#D32F2F</color>
+    <!-- 收入/正值：綠 -->
+    <color name="green">#388E3C</color>
+
+</resources>
